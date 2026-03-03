@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Q9 {
     public static void main (String[] args){
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the fee: ");
         int fee = input.nextInt();

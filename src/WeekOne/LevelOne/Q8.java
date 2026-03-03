@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Q8 {
     public static void main (String[] args){
         System.out.println("Enter the distance in kilometers: ");
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
         double km;
         km = input.nextInt();
